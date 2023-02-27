@@ -9,5 +9,6 @@ app.get('/', function(req,res){
     res.sendFile(path.resolve(__dirname,'./view/index.html'))
 })
 
+const port = process.env.PORT || 3030;
 
-app.listen(3030, ()=> console.log ('Servidor corriendo en el puerto 3030'));
+app.listen(port, ()=> console.log ('Servidor corriendo en el puerto ' + port));

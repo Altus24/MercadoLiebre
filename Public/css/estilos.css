@@ -10,18 +10,36 @@ body{
     color: black;
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
-    margin-left: 0px;
+    
 }
 h2{
     font-size: 24px;
 }
+
+
+/* .burger-menu{
+    
+} */
+
+
+
 .precio{
     font-size: 18px;
 }
 .descuento{
     font-size: 16px;
 }
-.descripcion{
+.nombre-producto{
     font-size: 16px;
 }
 
+.footer-section {
+    text-align: center;
+}
+.footer{
+    background-color: white;
+}
+.icon{
+    padding-bottom: 10px;
+    size: 2em;
+}

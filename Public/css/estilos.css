@@ -8,38 +8,100 @@
 
 body{
     color: black;
-    background-color: #EAC926;
+    background-color: #ebebeb;;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+   
     
 }
-h2{
-    font-size: 24px;
+
+ /* =========== header============= */
+.titulo{
+    font-size: 1.5rem;
 }
+header{
+    background-color: #EAC926;
+    padding:10px
+}
+.descripcion {
+    text-decoration: none;
+}
+.burger-menu{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    color: white;
+    background-color: #1059a6;
+    border: 1px #1059a6 solid;
+    border-radius: 5px;
+    padding: 0.2rem;
+    font-size: 1.4rem;
+    width: 30px;
+} 
+/* =========== main =========== */
+main{
+width: 90%;
+margin: auto;
 
-
-/* .burger-menu{
+}
+.img-productos{
+    width: 100%;
     
-} */
-
-
-
+}
+.fa-shipping-fast:before {
+    color: green;
+}
 .precio{
-    font-size: 18px;
+    font-size: 1.3rem;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.descuento .nombre-producto{
+    font-size: 1rem;
 }
 .descuento{
-    font-size: 16px;
+    color:#39b54a;
+    margin-top: 2px;
 }
-.nombre-producto{
-    font-size: 16px;
+.producto{
+   padding-bottom: 10px;
+   border-top:  1px solid #ebebeb;
+    
+}
+.descripcion-producto{
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+ul li {
+    list-style-type: none;
 }
 
+/* ============= footer ============ */
 .footer-section {
     text-align: center;
 }
+
 .footer{
     background-color: white;
 }
-.icon{
+
+/* .icon{
     padding-bottom: 10px;
     size: 2em;
+} */
+
+/* ========= mediaqueries ======== */
+/* mobile */
+@media (max-width:361px){
+
+}
+
+/* tablets */
+@media (min-width:361px) {
+   
+}
+/* desktop */
+@media (min-width:769px) {
 }

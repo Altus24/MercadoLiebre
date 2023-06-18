@@ -1,0 +1,469 @@
+/* Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+    *{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 0px;
+        box-sizing: border-box;
+
+    }
+    .title{
+        display: none;
+    }
+    .body{
+        display: flex;
+        align-content: center;
+    }
+/* header */
+    header{
+        background-color:#EAC926
+    }
+    .main-header-top-bar{
+        flex-flow: nowrap;
+    }
+
+    .logoMl{
+        width: 50%;
+        padding:15px;
+        
+    }
+    .headerYcuotas{
+        display: none;
+    }
+    .button{
+        width: 20%;
+        align-items: center;
+    }
+    .searchBar{
+        margin-right: 15px;
+        width: 50%;
+        flex-direction: row;
+        align-self: center;
+    }
+    .input{
+        width: 100%;
+    }
+    
+    .divCuotas{
+        flex-direction: row;
+        font-size: 70%;
+        width:100% ;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .barra-navegacion-header{
+        font-size: 12px;
+    }
+    .barra-navegacion-header li{
+        list-style: none;
+        flex-direction: row;
+    }
+    a:link { text-decoration:
+        none;
+    }
+    .burger-menu {
+        color: white;
+        background-color: #03264C;
+        display: block;
+        max-width: 50px;
+        padding: 3% ;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 17px;
+        margin: auto;
+        
+    }
+    div .banner{
+        width: 100%;
+        align-content: center;
+    }
+    .banner, .imagenPorducto{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+/* Main */
+    .main{
+        width: 100%;
+        align-content: center;
+        max-width: 100%;
+        background-color:#ebebeb;
+        margin: auto;
+    }
+    .main article{
+        padding:10px;
+    }
+    .titulares{
+        font-size: medium;
+        margin: 15px;
+        
+    }
+    .precios{
+        font-size: 18px;
+        flex-grow: 3;
+    }
+    .descuento { 
+        color: #39b54a;
+        font-size: 12px;
+        flex-grow: 7;    
+    }
+    .preciosYdescuentos{
+        flex-direction: row;
+        margin: 10px;
+        align-items: flex-end; 
+        width: 50%;
+    }
+    .descuentos .descripciones{
+        font-size: 16px;
+    }
+    .descripciones{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    section .productoSinImagen{
+        border-top: 1px solid #ebebeb;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+        width: 100%;    
+        position: relative;   
+    }
+    i.fas.fa-truck{
+        color: #39b54a ;
+        border: 1px solid #39b54a;;
+        border-radius: 50%;
+        padding:5px;
+        background-color: #FFF;
+        width: 30px;
+        height: 30px;
+        display: block;
+        font-size: 16px;
+        position: absolute;
+        right: 10px;
+        top: -15px;
+        transition-property: transform;
+        transition-duration: 0.5s;
+    }
+    i.fas.fa-truck:hover{
+        transform: rotateZ(-90deg);
+        
+    }
+    section .ofertas, .visitas{
+        display: flex;
+        align-items: center;     
+    }
+    article .imagenPorducto{
+        align-self: center;
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .productos:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    div .descripciones{
+    margin: 10px;
+    display: none;
+    }
+    #buttonFormSend:hover{
+        background-color: #0022AA;
+        color:white
+    }
+
+/* Footer */
+    .descripcion-footer{
+        text-align: center;
+        margin-top:0% ;
+        margin-bottom: 30px;
+        font-size: 12px;
+        
+    }
+    .titulo-footer{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+    footer{
+        margin: 30px;
+    }
+    .footer-icon{
+        text-align: center;
+        color:#104d8f;
+        font-size: 150%;
+    }
+/* Formulario */
+    input.input-formulario-password{
+    
+        border: none;
+        font-size: 12px;
+        padding: 5px
+    }
+
+    .div-control-formulario{
+        font-size: 16px;
+    }
+    .create-form{
+        margin: 15px;   
+    }
+    Main{
+        background-color: #ebebeb;
+    }
+
+    input.input-formulario{
+        border-radius: 3px;
+        border: none;
+        font-size: 12px;
+        padding: 5px
+    }
+    div.intereses{
+        font-size: 12px;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 5px;
+    }
+    .titulo{
+        font-weight: bold;
+    }
+    input.foto{
+        font-size: 12px;
+    }
+    div .perfil{
+        flex-direction: row
+    }
+    .buttonForm {
+        align-self: baseline
+    }
+    .divButton{
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+    }
+    .enviarbutton{
+        width: -webkit-fill-available;
+        align-self: normal;
+        align-items: center;
+        background-color:#1259c3;
+        color: #ebebeb;
+        border: none;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .create-form-login{
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .placeholder{
+        font-size: 12px;
+    }
+    .input-formulario-fecha{
+        flex-flow: nowrap;
+        border: none;
+    }
+
+/* MQ mobile */
+@media(min-width: 0px){
+    
+    nav.barra-navegacion-header{
+        display: none;
+    }
+    .descripciones{
+        display: none;
+    }
+    .productoSinImagen:hover{
+        .descripciones{
+            display: flex;
+        }
+    }
+}
+/* MQ tablet */
+@media(min-width: 361px)  {
+    .titulares{
+        font-size: large;
+        margin-left: 30px;
+    }
+    .productos{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    ul {
+        padding-left: 15px;
+    }    
+   
+    .descripciones{
+        display: flex;
+    }
+    .burger-menu{
+        display: none
+    }
+    nav.barra-navegacion-header{
+        flex-flow: nowrap;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        font-size: xx-small;
+    }
+    .logoMl{
+        width: 40%;
+    }
+    
+    .ul1, .ul2{
+        padding: 0px;
+        flex-flow: wrap;
+       
+    }
+    li a {
+        margin-left: 8px;
+    }
+    .ul2{
+        margin-right: 8px;
+    }
+
+    .productos{
+       width: 40%;
+        display: flex;
+    }
+    .visitas,.ofertas{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around
+       
+    }
+    .main-header-top-bar,
+    .divCuotas{
+        display:none;
+    }
+    div.headerYcuotas{
+        display: flex;
+        flex-direction: row;
+        align-items: center;   
+        max-width: 100vw;
+            
+    }
+    .divCuotasTabl{
+        order: 2; 
+    }    
+    .input{
+        height: 10%;
+        width: 50%;
+        font-size: x-small;
+    }
+    
+    .searchBar{
+        margin:0px;
+    }
+    .logoMl{
+        width: 40%;
+        align-content: space-between;
+    }
+    div.divCuotasTabl{
+        font-size:11px;
+        flex-direction: row;    
+        margin-left: -70px;
+    }
+    
+/* MQ desktop */
+@media(min-width: 769px){
+    .productos{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    nav.barra-navegacion-header{
+        display: block;
+        font-size: small
+     }
+     ul {
+         padding-left: 15px;
+     } 
+     div.divCuotas{
+        margin-left: 30%;
+    }
+    .burger-menu{
+        display: none
+    }
+    .descripciones{
+        display: flex;
+    }
+    nav.barra-navegacion-header{
+        flex-flow: nowrap;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .ul1, .ul2{
+        padding: 0px;
+        flex-flow: wrap;
+    }
+    .productos{
+        width: 20%;
+        display: flex;
+     }
+     .visitas,.ofertas{
+         flex-direction: row;
+         flex-wrap: wrap;
+    
+         justify-content: space-around;
+         margin-left: 10px;
+        
+     }
+     .titulares{
+         margin-left: 30px;
+     }
+    }
+    .headerYcuotas{
+        display: flex;
+        flex-direction: row;
+        align-items: center;   
+        white-space: break-spaces;
+            
+    }
+    .divCuotasTabl{
+        order: 2;
+    
+    }
+
+    .input{
+        height: 10%;
+        width: 50%;
+        font-size: x-small;
+    }
+    .main-header-top-bar,
+    .divCuotas{
+        display:none;
+    }
+    .searchBar{
+        margin-right: -70px;
+    }
+    .logoMl{
+        width: 40%;
+        align-content: space-between;
+    }
+    .divCuotasTabl{
+        font-size:x-small;
+        flex-direction: row;    
+        margin-left: -70px;
+    }
+
+    .noCopyr{
+        flex-direction: row;
+        border: red dotted;
+    }
+    .footer-icon:hover{
+        color: #39b54a;
+    }
+}
+

@@ -1,0 +1,25 @@
+PAra que funcione en el navegador:
+
+Servidor correndo
+Carpeta public en recursos etaticos
+linkear hmtl con css
+
+
+===
+a:link { text-decoration:
+     none;
+ }
+
+ No funciono con escribir la clase y text-decoration:none;
+
+ ===
+ Al poner una etiqueta lo q este adentro toma sus caracteristicas. Ej un h3 tiene un determinado tamano de letra que no se puede cambiar a menos que cambiemos la etiqueta]
+ ==
+
+ Los iconos hay q ponerlos dentro del li, o de la misma etiqeta de ser posible para que queden al lado de la palabra
+
+===
+
+Display block para que tome bien todas las funcionalidades (Menu hamburguesa)
+
+Ver de enlazar el creatu cuenta con la pagina

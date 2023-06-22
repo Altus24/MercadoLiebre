@@ -102,7 +102,7 @@ Verde: #39b54a; */
         padding:10px;
     }
     .titulares{
-        font-size: medium;
+        font-size: 24px;
         margin: 15px;
         
     }
@@ -127,6 +127,7 @@ Verde: #39b54a; */
     .descripciones{
         margin-left: 10px;
         margin-bottom: 10px;
+        color: #666;
     }
     section .productoSinImagen{
         border-top: 1px solid #ebebeb;
@@ -262,6 +263,10 @@ Verde: #39b54a; */
         padding: 5px;
         font-size: 12px;
     }
+    .enviarbutton:hover{
+        background-color: #0022AA
+
+    }
     .create-form-login{
         margin-right: 50px;
         margin-left: 50px;
@@ -329,6 +334,7 @@ Verde: #39b54a; */
     }
     li a {
         margin-left: 8px;
+        color: black;
     }
     .ul2{
         margin-right: 8px;
@@ -396,9 +402,13 @@ Verde: #39b54a; */
      }
      ul {
          padding-left: 15px;
+         color: black;
      } 
      div.divCuotas{
         margin-left: 30%;
+    }
+    li a {
+        color: black;
     }
     .burger-menu{
         display: none
@@ -410,8 +420,10 @@ Verde: #39b54a; */
         flex-flow: nowrap;
         display: flex;
         justify-content: space-between;
+        
        
     }
+    
     .ul1, .ul2{
         padding: 0px;
         flex-flow: wrap;
@@ -437,17 +449,22 @@ Verde: #39b54a; */
         flex-direction: row;
         align-items: center;   
         white-space: break-spaces;
+        
             
     }
-    .divCuotasTabl{
+    div.divCuotasTabl{
         order: 2;
+        font-size: inherit;
     
     }
-
+    button{
+    align-self: center;
+    font-size:large;
+    }
     .input{
         height: 10%;
         width: 50%;
-        font-size: x-small;
+        font-size: inherit;
     }
     .main-header-top-bar,
     .divCuotas{
@@ -460,12 +477,6 @@ Verde: #39b54a; */
         width: 40%;
         align-content: space-between;
     }
-    .divCuotasTabl{
-        font-size:x-small;
-        flex-direction: row;    
-        margin-left: -70px;
-    }
-
     .noCopyr{
         display: flex;
         flex-direction: row;    
